@@ -1,0 +1,28 @@
+
+.header{
+    width:100%;
+    background-color: aquamarine;
+    padding: 1rem 5px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-title{
+    flex: 5;
+    font-weight: 700;
+    font-size: 25px;
+}
+.navbar-items{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+.navbar-item{
+    padding: 7px 5px;
+    width:100px;
+    margin: 0px 5px;
+}
